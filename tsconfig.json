@@ -10,6 +10,41 @@
     "sourceMap": true,
     "outDir": "./dist",
     "baseUrl": "./",
-    "incremental": true
+    "incremental": true,
+    "paths": {
+      "@core/user": [
+        "libs/user/src"
+      ],
+      "@core/user/*": [
+        "libs/user/src/*"
+      ],
+      "@front-api/*": [
+        "apps/front-api/src/*"
+      ],
+      "@core/typegoose": [
+        "libs/typegoose/src"
+      ],
+      "@core/typegoose/*": [
+        "libs/typegoose/src/*"
+      ],
+      "@core/config": [
+        "libs/config/src"
+      ],
+      "@core/config/*": [
+        "libs/config/src/*"
+      ],
+      "@core/graphql": [
+        "libs/graphql/src"
+      ],
+      "@core/graphql/*": [
+        "libs/graphql/src/*"
+      ],
+      "@core/core": [
+        "libs/core/src"
+      ],
+      "@core/core/*": [
+        "libs/core/src/*"
+      ]
+    }
   }
 }
